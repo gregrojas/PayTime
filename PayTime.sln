@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayTime.API", "PayTime.API\PayTime.API.csproj", "{CA0E8FBE-5FCA-4785-A722-663BB91A1B8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayTime.Infrastructure", "PayTime.Infrastructure\PayTime.Infrastructure.csproj", "{2EBB5690-52C8-4FE2-8022-773CA2CD9C54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayTime.UnitTests", "PayTime.UnitTests\PayTime.UnitTests.csproj", "{A102C3C7-2FFD-4AC0-B3EB-66A094F37934}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayTime.Core", "PayTime.Core\PayTime.Core.csproj", "{C892752C-FDD3-4DB5-9B19-3F73E664C81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTime.Application", "PayTime.Application\PayTime.Application.csproj", "{4C5DD627-6BDE-4EDD-B31D-412A1ED0A289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA0E8FBE-5FCA-4785-A722-663BB91A1B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0E8FBE-5FCA-4785-A722-663BB91A1B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0E8FBE-5FCA-4785-A722-663BB91A1B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0E8FBE-5FCA-4785-A722-663BB91A1B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBB5690-52C8-4FE2-8022-773CA2CD9C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBB5690-52C8-4FE2-8022-773CA2CD9C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBB5690-52C8-4FE2-8022-773CA2CD9C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBB5690-52C8-4FE2-8022-773CA2CD9C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A102C3C7-2FFD-4AC0-B3EB-66A094F37934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A102C3C7-2FFD-4AC0-B3EB-66A094F37934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A102C3C7-2FFD-4AC0-B3EB-66A094F37934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A102C3C7-2FFD-4AC0-B3EB-66A094F37934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C892752C-FDD3-4DB5-9B19-3F73E664C81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C892752C-FDD3-4DB5-9B19-3F73E664C81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C892752C-FDD3-4DB5-9B19-3F73E664C81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C892752C-FDD3-4DB5-9B19-3F73E664C81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5DD627-6BDE-4EDD-B31D-412A1ED0A289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5DD627-6BDE-4EDD-B31D-412A1ED0A289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5DD627-6BDE-4EDD-B31D-412A1ED0A289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5DD627-6BDE-4EDD-B31D-412A1ED0A289}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2AE6AC1-DA3F-4188-9B59-1F3D33B10B2F}
+	EndGlobalSection
+EndGlobal
